@@ -2,6 +2,11 @@ p .pinkpanther{
     color: #f0f;
 }
 
-p.hulk{
+span.hulk, p.hulk{
     color: #0F0;
+}
+
+img{
+    float: left;
+    width: 10em;
 }
