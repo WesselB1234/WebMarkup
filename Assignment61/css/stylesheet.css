@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+img{
+    height: 50px;
+    width:  50px;
+}
+
 header{
     background-color: rgb(48, 48, 48);
     width: 100%;
@@ -47,9 +52,7 @@ nav li{
 */
 
 #heroSection{
-    display: inline-block;
     height: 200px;
-    width: 100%;
     margin-top:60px;
     background-color: aqua;
 }
@@ -60,4 +63,41 @@ nav li{
     transform: translateY(-50%);
     width: 50%;
     margin: auto;
+}
+
+/* 
+    IMAGES SECTION
+*/
+
+#imagesSection{
+    height: 400px;
+    background-color: rgb(196, 228, 255);
+}
+
+#imagesSection > article{ 
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+#imagesSection > article img{
+    width: 75%;
+    margin: 5%;
+    height: auto;
+}
+
+#imagesSection > aside{ 
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: aquamarine;
+}
+
+#imagesSection > aside img{
+    position: relative;
+    width: 75%;
+    height: auto; 
+    margin-top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
