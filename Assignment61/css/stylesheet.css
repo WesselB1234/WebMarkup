@@ -10,7 +10,7 @@ img{
 }
 
 header{
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(102, 102, 102);
     width: 100%;
     height: 60px;
     position: fixed;
@@ -70,14 +70,14 @@ nav li{
 */
 
 #imagesSection{
-    height: 400px;
+    overflow: auto;
     background-color: rgb(196, 228, 255);
 }
 
 #imagesSection > article{ 
     width: 80%;
-    height: 100%;
     float: left;
+    background-color: rgb(196, 228, 255);
 }
 
 #imagesSection > article img{
@@ -88,9 +88,7 @@ nav li{
 
 #imagesSection > aside{ 
     width: 20%;
-    height: 100%;
     float: left;
-    background-color: aquamarine;
 }
 
 #imagesSection > aside img{
@@ -109,7 +107,6 @@ nav li{
 #textPanelsSection{
     overflow: auto;
     background-color: bisque;
-    width: 100%;
 }
 
 #textPanelsSection article{
@@ -122,4 +119,26 @@ nav li{
 #textPanelsSection img{
     width: 40%;
     height: auto;
+}
+
+/*
+    FOOTER
+*/
+
+footer{
+    background-color: rgb(57, 57, 57);
+    overflow: auto;
+}
+
+footer ul{
+    width: 33.3%;
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer li{
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
 }
