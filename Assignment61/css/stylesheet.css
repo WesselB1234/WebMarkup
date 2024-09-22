@@ -101,3 +101,25 @@ nav li{
     left: 50%;
     transform: translateX(-50%);
 }
+
+/*
+    TEXT PANELS SECTION
+*/
+
+#textPanelsSection{
+    overflow: auto;
+    background-color: bisque;
+    width: 100%;
+}
+
+#textPanelsSection article{
+    width: 45%;
+    padding: 2.5%;
+    height: 160px;
+    float: left;
+}
+
+#textPanelsSection img{
+    width: 40%;
+    height: auto;
+}
