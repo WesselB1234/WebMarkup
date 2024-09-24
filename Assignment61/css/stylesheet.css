@@ -57,7 +57,7 @@ nav li{
     background-color: aqua;
 }
 
-#heroSection article{
+#heroSection > article{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
