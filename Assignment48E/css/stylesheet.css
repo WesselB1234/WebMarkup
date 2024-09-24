@@ -25,14 +25,17 @@ nav{
 }
 
 nav > a{
+    background-color: brown;
+    position: relative;
     width: 20%;
     height: 100%;
     float: left;
+    top: 50%;
 }
 
 nav > a > img{
     display: block;
-    margin: auto;
+    
     height: 100%;
 }
 
