@@ -111,6 +111,7 @@ header > aside > img{
 /*
     TOPICS SECTION
 */
+
 #topicsSection{
     margin-bottom: 50px;
 }
@@ -136,4 +137,44 @@ header > aside > img{
     width: 10%;
     height: 400px;
     margin: 0 20px 0 20px
+}
+
+/*
+    FOOTER
+*/
+
+footer{
+    height: 90px;
+    background-color: rgb(192, 187, 187);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer > * {
+    height: min-content;  
+    position: relative;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer > img{
+    position: relative;
+    width: 62px;
+    height: 62px;
+    margin-left: 50px; 
+}
+
+footer > p{
+    flex-basis: 49%;
+    text-align: right;
+}
+
+footer > ul{
+    flex-grow: 1;
+    text-align: center;
+}
+
+footer > ul > li{
+    display: inline;
 }
