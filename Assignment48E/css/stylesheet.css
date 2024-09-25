@@ -20,16 +20,12 @@ img{
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     width: inherit;
     height: 70px;
     background-color: aqua;   
-}
-
-nav > * {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 nav > a{
@@ -94,19 +90,17 @@ header > article > a{
 
 header > aside{
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 header > aside > img{
-    position: relative;
     width: 80%;
     height: 300px;
 
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    
-    top: 50%;
-    left: 20%;
-    transform: translateY(-50%);
 }
 
 /*
@@ -147,33 +141,28 @@ footer{
     height: 90px;
     background-color: rgb(192, 187, 187);
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-footer > * {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+footer > *{
+    margin: 0 9% 0 9%;
 }
 
 footer > img{
-    position: relative;
     width: 62px;
     height: 62px;
-    margin-left: 50px; 
 }
 
 footer > p{
-    height: min-content;  
-    flex-basis: 49%;
-    text-align: right;
+    text-align: center;
 }
 
 footer > ul{
-    height: min-content;  
-    flex-grow: 1;
     text-align: center;
 }
 
 footer > ul > li{
     display: inline;
+    margin-right: 20px;
 }
