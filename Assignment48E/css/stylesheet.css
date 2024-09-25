@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 1200px;
+    width: 1120px;
     margin: auto;
 }
 
@@ -65,7 +65,7 @@ header{
     display: flex;  
     flex-wrap: wrap;
 
-    height: 500px;
+    height: 370px;
     background-color: antiquewhite;
 }
 
@@ -73,6 +73,37 @@ header > article{
     flex-basis: 50%;
 }
 
+header > article > *{
+    width: 80%;
+    margin-left: 15%;
+}
+
+header > article > h1{
+    margin-top: 100px;
+}
+
+header > article > p{
+    margin-top: 40px;
+}
+
+header > article > a{
+    display: block;
+    margin-top: 40px;
+}
+
 header > aside{
     flex-grow: 1;
+}
+
+header > aside > img{
+    position: relative;
+    width: 80%;
+    height: 300px;
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
 }
