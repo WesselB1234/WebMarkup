@@ -39,7 +39,7 @@ nav{
 nav > a{
     width: 62px;
     height: 62px;
-    margin-left: 50px; 
+    margin-left: 100px; 
 }
 
 nav > a > img{
@@ -61,7 +61,7 @@ nav > ul > li{
 }
 
 nav > ul > li:last-child{
-    margin-right: 200px;
+    margin-right: 130px;
 }
 
 nav > ul > li > a:not(.green-btn){
