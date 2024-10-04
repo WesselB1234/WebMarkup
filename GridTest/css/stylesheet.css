@@ -10,16 +10,14 @@
 }
 
 body{
-    /* display: grid;
-    grid-template-areas: 
-    "nav nav nav" 
-    "header header header"
-    "topics topics topics"
-    "footer" "footer" "footer"; */
-
     background-color: #fff;
-    border-left: gray solid 1px;
-    border-right: gray solid 1px;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    "header header header" 
+    "topics topics topics";
 }
 
 img{
@@ -32,7 +30,6 @@ img{
 */
 
 nav{
-    grid-area: nav;
     display: grid;
     grid-template-columns: 100px auto;
     align-items: center;
@@ -90,7 +87,6 @@ header{
     grid-area: header;
     display: grid;
     grid-template-columns: 55% auto;
-    height: 390px;
     background-color: rgb(254, 221, 139);
 }
 
@@ -179,7 +175,6 @@ header > aside > img{
 */
 
 footer{
-    grid-area: footer;
     height: 90px;
     background-color: rgb(86, 94, 97);
     display: grid;
