@@ -1,0 +1,30 @@
+form{
+    width: 400px;
+}
+
+input, label, textarea{
+    width: 100%;
+    display: block;
+}
+
+form > fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+form > fieldset > section{
+    margin-top: 25px;
+}
+
+.dual-input-holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit{
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+}
